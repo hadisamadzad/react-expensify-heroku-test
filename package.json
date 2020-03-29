@@ -10,7 +10,7 @@
     "dev": "webpack-dev-server",
     "build:dev": "webpack",
     "build": "webpack -p --env production",
-    "heroku-postbuild":"npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
